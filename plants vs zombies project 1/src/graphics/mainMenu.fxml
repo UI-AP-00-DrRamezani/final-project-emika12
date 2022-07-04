@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.mainMenu">
+   <children>
+      <ImageView fitHeight="357.0" fitWidth="600.0" layoutX="430.0" layoutY="63.0" AnchorPane.topAnchor="63.0">
+         <image>
+            <Image url="@../resources/images/pngwing.com(4).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="124.0" layoutX="1038.0" layoutY="432.0">
+         <image>
+            <Image url="@../resources/images/zombie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="168.0" fitWidth="200.0" layoutX="230.0" layoutY="652.0">
+         <image>
+            <Image url="@../resources/images/fighter.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="newGame" layoutX="645.0" layoutY="488.0" mnemonicParsing="false" onAction="#newGameEntered" prefHeight="44.0" prefWidth="170.0" text="new Game" />
+      <Button fx:id="loadGame" layoutX="645.0" layoutY="623.0" mnemonicParsing="false" onAction="#loadEntered" prefHeight="44.0" prefWidth="170.0" text="load game" />
+   </children>
+</AnchorPane>
