@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="840.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.playGroundButtons.playGround2">
+   <children>
+      <Label fx:id="moneyLabel" layoutX="279.0" layoutY="10.0" prefHeight="70.0" prefWidth="128.0" text="50" textAlignment="CENTER" textFill="#212805">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="treasureLabel" fitHeight="79.0" fitWidth="114.0" layoutX="165.0" layoutY="5.0">
+         <image>
+            <Image url="@favpng_treasure-piracy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hourglass" fitHeight="79.0" fitWidth="73.0" layoutX="1334.0" layoutY="747.0">
+         <image>
+            <Image url="@favpng_hourglass-pointer-icon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="myTimer" layoutX="1400.0" layoutY="747.0" prefHeight="70.0" prefWidth="137.0" text="02:00" textAlignment="JUSTIFY" textFill="#97870f">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="folwer" fitHeight="90.0" fitWidth="90.0" layoutX="24.0" layoutY="29.0" onMousePressed="#flowerPressed">
+         <image>
+            <Image url="@flower.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mushroom" fitHeight="90.0" fitWidth="90.0" layoutX="24.0" layoutY="166.0" onMousePressed="#mushroomPressed">
+         <image>
+            <Image url="@mushroom.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iceFlower" fitHeight="90.0" fitWidth="114.0" layoutX="12.0" layoutY="309.0" onMousePressed="#icePressed">
+         <image>
+            <Image url="@ice.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="greenFighter" fitHeight="90.0" fitWidth="106.0" layoutX="24.0" layoutY="441.0" onMousePressed="#greenPressed">
+         <image>
+            <Image url="@fighter.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="menu" fitHeight="60.0" fitWidth="60.0" layoutX="1526.0" layoutY="18.0" onMouseClicked="#homePageClicked" onMousePressed="#homePressed">
+         <image>
+            <Image url="@home.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1530.0" layoutY="94.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
